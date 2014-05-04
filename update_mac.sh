@@ -7,6 +7,9 @@ brew update
 echo 'Mise à jour des brew installées'
 brew upgrade
 
+# Mise à jour des cask
+brew cask update
+
 # gem système ?
 echo 'Mise à jour des gems système'
 sudo gem update --system
